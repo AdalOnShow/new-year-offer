@@ -18,6 +18,16 @@
   color: var(--white-color);
 }
 
+.btn {
+  padding: 16px 32px;
+  ;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  border-radius: 8px;
+  border: none;
+}
+
 /* hero section */
 .hero {
   max-width: 1320px;
@@ -81,4 +91,38 @@
     color: var(--black-color);
   }
 
+}
+
+/* welcome section */
+.welcome {
+  max-width: 1320px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 50px auto;
+  padding: 0 120px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('./images/Vectorrr.png') center no-repeat;
+  border-radius: 20px;
+
+
+
+  h1 {
+    font-size: 75px;
+  }
+
+  p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    max-width: 700px;
+    margin-top: 24px;
+    opacity: 0.8;
+  }
+
+  button {
+    background: none;
+    margin-top: 40px
+  }
 }
