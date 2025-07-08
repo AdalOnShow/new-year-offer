@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 :root {
-  --primary-color: #FF0000;
+  --primary-color: #ff0000;
   --secondary-color: #C70039;
   --background-color: #900C3F;
   --white-color: #FFFFFF;
@@ -124,5 +124,39 @@
   button {
     background: none;
     margin-top: 40px
+  }
+}
+
+/* join section */
+.join {
+  max-width: 1320px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 0));
+  border-radius: 20px;
+
+  .content {
+    h4 {
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      font-weight: semi-bold;
+      font-size: 32px;
+      color: var(--black-color);
+      margin-bottom: 10px;
+
+      span {
+        font-family: "Inter", sans-serif;
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  button {
+    background-color: var(--primary-color);
+    margin-top: 48px;
   }
 }
